@@ -8,16 +8,16 @@ export default function Features() {
     return (
         <Box maxW={"650px"} m="auto" mt="25px" px="15px">
             <Flex direction={{ base: 'column', md: 'column', lg: 'row' }}>
-                <HStack>
+                <HStack py={3}>
                     <Icon as={icon1}></Icon>
                     <Text fontSize={16}>30 days money back Guarantee</Text>
                 </HStack>
-                <HStack>
+                <HStack py={3}>
                     <Icon as={icon2}></Icon>
                     <Text fontSize={16}>No setup fees
                         100% hassle-free</Text>
                 </HStack>
-                <HStack>
+                <HStack py={3}>
                     <Icon as={icon3}></Icon>
                     <Text fontSize={16}>No monthly subscription
                         Pay once and for all</Text>
